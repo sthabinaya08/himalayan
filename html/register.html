@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      body {
+        background-color: #1c1c1c;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="register">
+      <div>
+        <h1 style="color: #cccccc; text-shadow: 1px 2px 20px #cccccc">
+          Registration Form
+        </h1>
+      </div>
+      <form class="registration-form">
+        <div>
+          <label>Full Name:</label>
+          <input type="text" id="fullname" /><br /><br />
+
+          <label>Username:</label>
+          <input type="text" id="username" /><br /><br />
+
+          <label>Email:</label>
+          <input type="email" id="email" /><br /><br />
+
+          <label>Password:</label>
+          <input type="password" id="password" /><br /><br />
+
+          <label>Confirm Password:</label>
+          <input type="password" id="confirmPassword" /><br /><br />
+
+          <label>Gender:</label>
+          <input type="radio" id="male" value="male" name="gender" />
+          <label for="male">male</label>
+          <input type="radio" id="female" value="female" name="gender" />
+          <label for="female">female</label>
+          <input type="radio" id="third" value="other" name="gender" />
+          <label for="third">third</label><br /><br />
+
+          <label>Phone Number:</label>
+          <input type="text" id="phone" /><br /><br />
+
+          <label>
+            <input type="checkbox" id="terms" /> I agree to Terms & Conditions </label
+          ><br /><br />
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
